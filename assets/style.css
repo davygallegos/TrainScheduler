@@ -1,0 +1,56 @@
+
+
+ #train-table th,
+ td {
+   display: inline-block;
+   width: 16.575%;
+ }
+
+ #text-title {
+     font-size: xx-large;
+     text-align: center;
+ };
+ .jumbotron {
+     text-align: center
+ };
+ #card-header {
+     background-color: blue;
+     
+ };
+
+
+ #add-train-btn {
+    background-color: #f8ebe2;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    padding: 12px 40px 10px;
+    position: relative;
+  }
+  #add-train-btn:before,
+  #add-train-btn:after {
+    border: 0 solid transparent;
+    transition: all 0.25s;
+    content: '';
+    height: 24px;
+    position: absolute;
+    width: 24px;
+  }
+  #add-train-btn:before {
+    border-top: 2px solid blue;
+    left: 0px;
+    top: -5px;
+  }
+  #add-train-btn:after {
+    border-bottom: 2px solid blue;
+    bottom: -5px;
+    right: 0px;
+  }
+  #add-train-btn:hover {
+    background-color: blue;
+  }
+  #add-train-btn:hover:before,
+  #add-train-btn:hover:after {
+    height: 100%;
+    width: 100%;
+  }
